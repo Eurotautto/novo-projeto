@@ -24,13 +24,13 @@ Uma série de exemplos passo-a-passo que informam o que você deve executar para
 Etapas de instalação e pacotes:
 
 ```
-[Spring Boot](SpringBoot.md) - 
-[Bootstrap](Bootstrap.md) -
-[Eclipse IDE for Enterprise Java and Web Developers](EclipseIDE.md) -
-[Java Development Kit](JavaDevelopmentKit.md) -
-[Thymeleaf](Thymeleaf.md) - 
-[MySQL Community Server](MySQLCommunityServer.md) -
-[Validation](Validation.md) -
+[Spring Boot](SpringBoot.md)(https://github.com/Eurotautto/novo-projeto/SpringBoot) - 
+[Bootstrap](Bootstrap.md)(https://github.com/usuario/novo-projeto/Bootstrap) -
+[Eclipse IDE for Enterprise Java and Web Developers](EclipseIDE.md)(https://github.com/usuario/projeto/EclipseIDE) -
+[Java Development Kit](JavaDevelopmentKit.md)(https://github.com/usuario/projeto/JavaDevelopmentKit) -
+[Thymeleaf](Thymeleaf.md)(https://github.com/usuario/projeto/Thymeleaf) - 
+[MySQL Community Server](MySQLCommunityServer.md)(https://github.com/usuario/projeto/MySQLCommunityServer) -
+[Validation](Validation.md)(https://github.com/usuario/projeto/Validation) -
 
 ```
 
@@ -67,7 +67,7 @@ Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as vers�
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/Eurotautto/novo-projeto/LICENSE) para detalhes.
 
 ## 🎁 Expressões de gratidão
 
