@@ -1,0 +1,74 @@
+
+O procedimento de instalação do Spring Boot é dividido em duas etapas: instalação da JDK e instalação do gerenciador de projetos Maven.
+
+Instalação da JDK
+
+A JDK (Java Development Kit) é um conjunto de ferramentas e bibliotecas necessárias para o desenvolvimento de aplicações Java. Para instalar a JDK, siga os passos abaixo:
+
+Baixe o instalador da JDK para o seu sistema operacional no site da Oracle.
+Execute o instalador e siga as instruções na tela.
+Após a instalação, verifique se a JDK foi instalada corretamente executando o comando abaixo no terminal:
+java -version
+Instalação do Maven
+
+O Maven é um gerenciador de projetos que automatiza o processo de construção, teste e implantação de aplicações Java. Para instalar o Maven, siga os passos abaixo:
+
+Baixe o instalador do Maven para o seu sistema operacional no site do Maven.
+Execute o instalador e siga as instruções na tela.
+Após a instalação, verifique se o Maven foi instalado corretamente executando o comando abaixo no terminal:
+mvn -v
+Configuração do ambiente de desenvolvimento
+
+Após instalar a JDK e o Maven, você precisará configurar o seu ambiente de desenvolvimento para que ele possa ser usado para desenvolver aplicações Spring Boot. Para isso, siga os passos abaixo:
+
+Adicione as variáveis de ambiente JAVA_HOME e MAVEN_HOME ao seu sistema operacional.
+Adicione o diretório do Maven ao seu PATH.
+Instale um editor de texto ou IDE para Java.
+Criando um projeto Spring Boot
+
+Para criar um projeto Spring Boot, você pode usar o Spring Initializr. O Spring Initializr é uma ferramenta online que permite que você crie projetos Spring Boot rapidamente. Para usar o Spring Initializr, siga os passos abaixo:
+
+Acesse o site do Spring Initializr.
+Selecione a linguagem Java e a versão do Spring Boot que você deseja usar.
+Selecione as dependências que você deseja adicionar ao seu projeto.
+Clique em "Generate" para criar o projeto.
+O Spring Initializr criará um projeto Maven com as dependências que você selecionou. Você pode abrir o projeto no seu editor de texto ou IDE para começar a desenvolver sua aplicação.
+
+Executando uma aplicação Spring Boot
+
+Para executar uma aplicação Spring Boot, siga os passos abaixo:
+
+Navegue até o diretório do projeto no terminal.
+Execute o comando abaixo para compilar o projeto:
+mvn clean install
+Execute o comando abaixo para iniciar a aplicação:
+mvn spring-boot:run
+A aplicação será iniciada na porta 8080. Você pode acessar a aplicação no seu navegador usando o endereço http://localhost:8080.
+
+Exemplo de projeto Spring Boot
+
+Aqui está um exemplo de um projeto Spring Boot simples que imprime "Hello, world!" na saída padrão:
+
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
+
+}
+Para compilar e executar este projeto, siga os passos abaixo:
+
+Crie um novo diretório para o projeto.
+Copie o código acima para o arquivo src/main/java/com/example/demo/DemoApplication.java.
+Abra o terminal e navegue até o diretório do projeto.
+Execute o comando mvn clean install para compilar o projeto.
+Execute o comando mvn spring-boot:run para iniciar a aplicação.
+A aplicação será iniciada na porta 8080. Você pode acessar a aplicação no seu navegador usando o endereço http://localhost:8080.
+
+Para mais informações sobre o Spring Boot, consulte a documentação oficial: https://spring.io/projects/spring-boot
