@@ -24,13 +24,13 @@ Uma série de exemplos passo-a-passo que informam o que você deve executar para
 Etapas de instalação e pacotes:
 
 
-* [SpringBoot.md](https://github.com/Eurotautto/novo-projeto/blob/main/SpringBoot) - 
-* [Bootstrap.md](https://github.com/Eurotautto/novo-projeto/blob/main/Bootstrap) -
-* [EclipseIDE.md](https://github.com/Eurotautto/novo-projeto/blob/main/EclipseIDE) -
-* [JavaDevelopmentKit.md](https://github.com/Eurotautto/novo-projeto/blob/main/JavaDevelopmentKit) -
-* [Thymeleaf.md](https://github.com/Eurotautto/novo-projeto/blob/main/Thymeleaf) - 
-* [MySQLCommunityServer.md](https://github.com/Eurotautto/novo-projeto/blob/main/MySQLCommunityServer) -
-* [Validation.md](https://github.com/Eurotautto/novo-projeto/blob/main/Validation) -
+* [SpringBoot.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) - 
+* [Bootstrap.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) -
+* [EclipseIDE.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) -
+* [JavaDevelopmentKit.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) -
+* [Thymeleaf.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) - 
+* [MySQLCommunityServer.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) -
+* [Validation.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) -
 
 
 
