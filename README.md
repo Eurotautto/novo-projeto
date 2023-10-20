@@ -24,13 +24,13 @@ Uma série de exemplos passo-a-passo que informam o que você deve executar para
 Etapas de instalação e pacotes:
 
 
-*[Spring Boot](SpringBoot.md)(https://github.com/Eurotautto/novo-projeto/SpringBoot) - 
-*[Bootstrap](Bootstrap.md)(https://github.com/usuario/novo-projeto/Bootstrap) -
-*[Eclipse IDE for Enterprise Java and Web Developers](EclipseIDE.md)(https://github.com/usuario/projeto/EclipseIDE) -
-*[Java Development Kit](JavaDevelopmentKit.md)(https://github.com/usuario/projeto/JavaDevelopmentKit) -
-*[Thymeleaf](Thymeleaf.md)(https://github.com/usuario/projeto/Thymeleaf) - 
-*[MySQL Community Server](MySQLCommunityServer.md)(https://github.com/usuario/projeto/MySQLCommunityServer) -
-*[Validation](Validation.md)(https://github.com/usuario/projeto/Validation) -
+* [SpringBoot.md](https://github.com/Eurotautto/novo-projeto/blob/main/SpringBoot) - 
+* [Bootstrap.md](https://github.com/Eurotautto/novo-projeto/blob/main/Bootstrap) -
+* [EclipseIDE.md](https://github.com/Eurotautto/novo-projeto/blob/main/EclipseIDE) -
+* [JavaDevelopmentKit.md](https://github.com/Eurotautto/novo-projeto/blob/main/JavaDevelopmentKit) -
+* [Thymeleaf.md](https://github.com/Eurotautto/novo-projeto/blob/main/Thymeleaf) - 
+* [MySQLCommunityServer.md](https://github.com/Eurotautto/novo-projeto/blob/main/MySQLCommunityServer) -
+* [Validation.md](https://github.com/Eurotautto/novo-projeto/blob/main/Validation) -
 
 
 
