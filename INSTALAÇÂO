@@ -49,7 +49,7 @@ Execute o comando abaixo para iniciar a aplicação:
 mvn spring-boot:run
 A aplicação será iniciada na porta 8080. Você pode acessar a aplicação no seu navegador usando o endereço http://localhost:8080.
 ```
-
+____________________________________________________________________________________________________________________________
 # Eclipse IDE for Enterprise Java and Web Developers
 
 Para instalar o Eclipse IDE for Enterprise Java and Web Developers, siga estas etapas:
@@ -103,3 +103,244 @@ Se você tiver problemas ao instalar o Eclipse IDE, consulte a seção de proble
 * O Eclipse IDE requer um Java Runtime Environment (JRE) instalado no seu computador. Se você não tiver um JRE instalado, o Eclipse IDE irá instalá-lo automaticamente.
 * O Eclipse IDE é executado em vários sistemas operacionais, incluindo Windows, macOS e Linux.
 * O Eclipse IDE é um software gratuito e de código aberto.
+
+
+____________________________________________________________________________________________________________________________
+# MySQL Community Server
+
+Para instalar o MySQL Community Server, siga estas etapas:
+```
+1. Baixe o instalador do MySQL Community Server do site oficial.
+2. Execute o instalador.
+3. Selecione o tipo de instalação desejada.
+4. Configure o servidor MySQL.
+5. Inicie o servidor MySQL.
+```
+## Download do instalador
+
+O instalador do MySQL Community Server está disponível para Windows, macOS e Linux. Para baixar o instalador, visite o site oficial do MySQL e selecione o sistema operacional desejado.
+
+## Execução do instalador
+
+Após baixar o instalador, execute-o. O instalador iniciará uma série de assistentes que o guiarão pelo processo de instalação.
+
+## Seleção do tipo de instalação
+
+O instalador oferece dois tipos de instalação:
+
+# Instalação básica: Esta opção instala apenas os componentes essenciais do MySQL Community Server.
+# Instalação completa: Esta opção instala todos os componentes do MySQL Community Server, incluindo ferramentas de administração e desenvolvimento.
+
+## Configuração do servidor MySQL
+
+Na etapa de configuração do servidor MySQL, você precisará especificar as seguintes informações:
+```
+* Tipo de configuração do servidor: Selecione o tipo de configuração do servidor que deseja usar. As opções disponíveis são:
+* Máquina de desenvolvimento: Esta opção é adequada para ambientes de desenvolvimento.
+* Servidor de produção: Esta opção é adequada para ambientes de produção.
+* Ativar rede de TCP/IP: Selecione esta opção para permitir que o servidor MySQL seja acessível de outros computadores na rede.
+* Número da porta: Insira o número da porta que deseja usar para o servidor MySQL. A porta padrão é 3306.
+* Abra a porta do Firewall para obter acesso à rede: Selecione esta opção para abrir a porta do Firewall para o servidor MySQL.
+* Configuração avançada: Esta opção permite que você configure opções avançadas do servidor MySQL.
+```
+## Início do servidor MySQL
+
+Após concluir a configuração do servidor MySQL, você pode iniciá-lo. Para fazer isso, abra um prompt de comando e execute o seguinte comando:
+
+```
+net start mysql
+```
+
+## Verificação da instalação
+
+Para verificar se a instalação do MySQL Community Server foi bem-sucedida, abra um navegador da web e acesse o endereço `localhost:3306`. Você deverá ver a página de login do MySQL.
+
+## Criação de uma conta de usuário
+
+Após verificar a instalação, você precisará criar uma conta de usuário para acessar o MySQL. Para fazer isso, execute o seguinte comando no prompt de comando:
+
+```
+mysql -u root -p
+```
+
+* Substitua `root` pela senha que você definiu para a conta root.
+
+* Após fazer login, execute o seguinte comando para criar uma nova conta de usuário:
+
+```
+CREATE USER 'usuario'@'localhost' IDENTIFIED BY 'senha';
+```
+
+* Substitua `usuario` pelo nome da conta de usuário e `senha` pela senha da conta de usuário.
+
+* Para conceder privilégios à conta de usuário, execute o seguinte comando:
+
+```
+GRANT ALL PRIVILEGES ON *.* TO 'usuario'@'localhost';
+```
+
+* Para sair do MySQL, execute o seguinte comando:
+
+```
+exit
+```
+
+## Configuração do firewall
+
+Se você estiver usando um firewall, precisará abrir a porta 3306 para permitir o acesso ao servidor MySQL de outros computadores na rede. As instruções para abrir a porta do firewall variam de acordo com o tipo de firewall que você está usando.
+
+## Configuração de segurança
+
+É importante configurar o MySQL de forma segura. Para isso, siga estas dicas:
+
+* Use uma senha forte para a conta root.
+* Crie contas de usuário separadas para cada usuário.
+* Conceda apenas os privilégios necessários a cada conta de usuário.
+* Mantenha o software MySQL atualizado.
+
+Para obter mais informações sobre como configurar o MySQL de forma segura, consulte o guia de segurança do MySQL.
+
+____________________________________________________________________________________________________________________________
+
+# Thymeleaf
+
+O Thymeleaf é um motor de templates open source que pode ser usado para gerar páginas HTML dinamicamente. Ele é baseado em HTML5 e CSS3, e permite o uso de expressões e código Java para gerar conteúdo dinâmico.
+
+Para instalar o Thymeleaf, você pode usar o gerenciador de pacotes Maven ou Gradle.
+
+## Instalação com Maven
+
+Para instalar o Thymeleaf com Maven, adicione a seguinte dependência ao seu arquivo pom.xml:
+
+```xml
+<dependency>
+    <groupId>org.thymeleaf</groupId>
+    <artifactId>thymeleaf-spring5</artifactId>
+    <version>3.0.12.RELEASE</version>
+</dependency>
+```
+
+Em seguida, execute o seguinte comando para baixar e instalar o Thymeleaf:
+
+```
+mvn install
+```
+
+## Instalação com Gradle
+
+Para instalar o Thymeleaf com Gradle, adicione a seguinte dependência ao seu arquivo build.gradle:
+
+```
+dependencies {
+    implementation 'org.thymeleaf:thymeleaf-spring5:3.0.12.RELEASE'
+}
+```
+
+Em seguida, execute o seguinte comando para baixar e instalar o Thymeleaf:
+
+```
+gradle build
+```
+
+## Configuração do Thymeleaf
+
+Para configurar o Thymeleaf em sua aplicação, você precisa adicionar as seguintes configurações ao seu arquivo de configuração Spring Boot:
+
+```
+spring.thymeleaf.prefix=classpath:/templates/
+spring.thymeleaf.suffix=.html
+spring.thymeleaf.mode=HTML5
+spring.thymeleaf.encoding=UTF-8
+```
+
+A configuração `spring.thymeleaf.prefix` especifica o prefixo do caminho para os templates Thymeleaf. A configuração `spring.thymeleaf.suffix` especifica o sufixo do nome dos templates Thymeleaf. A configuração `spring.thymeleaf.mode` especifica o modo de renderização do Thymeleaf. A configuração `spring.thymeleaf.encoding` especifica a codificação dos templates Thymeleaf.
+
+## Exemplo
+
+Aqui está um exemplo de como usar o Thymeleaf em uma aplicação Spring Boot:
+
+```java
+@Controller
+public class IndexController {
+
+    @GetMapping("/")
+    public String index() {
+        return "index";
+    }
+}
+
+@ControllerAdvice
+public class GlobalControllerAdvice {
+
+    @ModelAttribute("nome")
+    public String nome() {
+        return "Mundo";
+    }
+}
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf</title>
+</head>
+<body>
+    <h1>Olá, th:text="${nome}"!</h1>
+</body>
+</html>
+```
+
+Neste exemplo, o controller `IndexController` retorna o nome da página `index`. O controller `GlobalControllerAdvice` adiciona uma propriedade `nome` ao modelo Thymeleaf. O template Thymeleaf usa a expressão `th:text` para exibir o valor da propriedade `nome`.
+
+Para executar este exemplo, você pode usar o seguinte comando:
+
+```
+mvn spring-boot:run
+```
+
+Ao abrir o endereço `http://localhost:8080` em seu navegador, você verá a seguinte saída:
+
+```
+Olá, Mundo!
+```
+
+Para obter mais informações sobre o Thymeleaf, consulte a documentação oficial: 
+https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html.
+
+____________________________________________________________________________________________________________________________
+
+# Validation
+
+O procedimento de instalação do Validation Java é relativamente simples e pode ser realizado em poucos passos.
+
+## Requisitos
+
+Para instalar o Validation Java, você precisará dos seguintes requisitos:
+
+* Java Development Kit (JDK) 17 ou superior
+* Maven 3.8.1 ou superior
+
+## Passos
+
+1. Baixe o arquivo JAR do Validation Java do site oficial.
+2. Extraia o arquivo JAR para uma pasta de sua preferência.
+3. Adicione a pasta do Validation Java ao seu caminho de classe.
+4. Adicione a dependência do Validation Java ao seu projeto Maven.
+
+## Adicionando a dependência ao seu projeto Maven
+
+Para adicionar a dependência do Validation Java ao seu projeto Maven, abra o arquivo pom.xml do seu projeto e adicione a seguinte dependência:
+
+```xml
+<dependency>
+    <groupId>javax.validation</groupId>
+    <artifactId>validation-api</artifactId>
+    <version>2.0.1.Final</version>
+</dependency>
+```
+
+## Recursos adicionais
+
+Para obter mais informações sobre o Validation Java, consulte a documentação oficial:
+
+* Documentação do Validation Java: https://beanvalidation.org/
+* Referência do Validation Java: https://beanvalidation.org/2.0/spec/
