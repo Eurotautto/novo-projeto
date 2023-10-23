@@ -24,13 +24,13 @@ Uma série de exemplos passo-a-passo que informam o que você deve executar para
 Etapas de instalação e pacotes:
 
 
-* [SpringBoot](https://github.com/Eurotautto/novo-projeto/blob/50c5a56b1faf780ac3fde77521b6a91a3384ccf6/INSTALA%C3%87%C3%82O#L1) 
-* [Bootstrap.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) 
-* [EclipseIDE](https://github.com/Eurotautto/novo-projeto/blob/50c5a56b1faf780ac3fde77521b6a91a3384ccf6/INSTALA%C3%87%C3%82O#L53) 
-* [JavaDevelopmentKit.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) 
-* [Thymeleaf.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) 
-* [MySQLCommunityServer.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO)
-* [Validation.md](https://github.com/Eurotautto/novo-projeto/blob/main/INSTALAÇÂO) 
+* [SpringBoot](https://github.com/Eurotautto/novo-projeto/blob/2175823f1f9613eca1a0a76b5fe7a5e620849dc5/INSTALA%C3%87%C3%82O#L155)
+* [Bootstrap](https://github.com/Eurotautto/novo-projeto/blob/38ac4f0683ea831dc65bde90246a2e57fca48b9d/INSTALA%C3%87%C3%82O#L352) 
+* [EclipseIDE](https://github.com/Eurotautto/novo-projeto/blob/2175823f1f9613eca1a0a76b5fe7a5e620849dc5/INSTALA%C3%87%C3%82O#L3)
+* [JavaDevelopmentKit](https://github.com/Eurotautto/novo-projeto/blob/2175823f1f9613eca1a0a76b5fe7a5e620849dc5/INSTALA%C3%87%C3%82O#L159) 
+* [Thymeleaf](https://github.com/Eurotautto/novo-projeto/blob/2175823f1f9613eca1a0a76b5fe7a5e620849dc5/INSTALA%C3%87%C3%82O#L208) 
+* [MySQLCommunityServer](https://github.com/Eurotautto/novo-projeto/blob/2175823f1f9613eca1a0a76b5fe7a5e620849dc5/INSTALA%C3%87%C3%82O#L59)
+* [Validation](https://github.com/Eurotautto/novo-projeto/blob/2175823f1f9613eca1a0a76b5fe7a5e620849dc5/INSTALA%C3%87%C3%82O#L314)
 
 
 
