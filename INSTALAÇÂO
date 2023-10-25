@@ -401,3 +401,51 @@ Após adicionar essa dependência, você poderá importar os arquivos CSS e Java
 ```
 
 Esta opção é mais conveniente, pois você não precisa baixar e gerenciar os arquivos do Bootstrap manualmente.
+
+____________________________________________________________________________________________________________________________
+
+# IntelliJ IDEA 2023.2.3
+
+Para instalar o IntelliJ IDEA 2023.2.3, siga estas etapas:
+
+1. Acesse o site da JetBrains e baixe o instalador para o seu sistema operacional.
+2. Execute o instalador e siga as instruções na tela.
+3. Selecione o idioma e a localização de instalação.
+4. Aceite os termos de licença e clique em "Avançar".
+5. Selecione os componentes que deseja instalar e clique em "Avançar".
+6. Clique em "Instalar".
+7. Aguarde a instalação ser concluída.
+8. Clique em "Concluir".
+
+Após a instalação, o IntelliJ IDEA será aberto automaticamente.
+
+## Opcionalmente, você pode instalar o IntelliJ IDEA usando a Toolbox App.
+
+A Toolbox App é um gerenciador de produtos da JetBrains que permite instalar e atualizar vários produtos JetBrains com facilidade. Para instalar o IntelliJ IDEA usando a Toolbox App, siga estas etapas:
+
+1. Baixe e instale a Toolbox App.
+2. Abra a Toolbox App e clique no botão "Instalar".
+3. Selecione o IntelliJ IDEA e clique em "Instalar".
+4. Aguarde a instalação ser concluída.
+
+## Requisitos de sistema
+
+Para instalar o IntelliJ IDEA 2023.2.3, você precisará de um sistema operacional Windows, macOS ou Linux. Os requisitos mínimos de sistema são os seguintes:
+
+* Windows: Windows 10 ou posterior, 64 bits
+* macOS: macOS 10.13 ou posterior
+* Linux: Ubuntu 16.04 ou posterior, CentOS 7 ou posterior, Fedora 29 ou posterior
+
+## Pré-requisitos
+
+Para instalar o IntelliJ IDEA 2023.2.3, você precisará de uma instalação do Java JDK 11 ou posterior. Você pode baixar o Java JDK do site da Oracle.
+
+## Após a instalação
+
+Após a instalação, o IntelliJ IDEA será aberto automaticamente. Você pode começar a usar o IDE para desenvolver software Java, Kotlin, Python, JavaScript, PHP, e muito mais.
+
+Para obter mais informações sobre como usar o IntelliJ IDEA, consulte a documentação do IDE.
+
+## Problemas comuns
+
+Se você tiver problemas ao instalar o IntelliJ IDEA, consulte a página de solução de problemas do IDE.
